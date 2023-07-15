@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Helmet from "../components/Helmet/Helmet";
-import "../styles/home.css";
+import Helmet from "../../components/Helmet/Helmet";
+import "./home.css";
 import { Container, Row, Col } from "reactstrap";
-import Services from "../components/services/Services";
-import Clock from "../components/UI/Clock";
-import counterImg from "../assets/images/27326-removebg-preview.png";
-import Truested from "../components/Trusted/Truested";
-import Banner from "../components/Banner/Banner";
-import logo1 from "../assets/images/circuit-circuit-board-resistor-computer-163100.jpeg";
-import logo2 from "../assets/images/pexels-photo-1191531.webp";
-import logo3 from "../assets/images/360_F_304356571_5UobO3PIn4opYP1hzPQM4czElzFjO2xK.jpg";
-import logo4 from "../assets/images/pexels-photo-7679863.jpeg";
+import Services from "../../components/services/Services";
+import Clock from "../../components/UI/Clock";
+import counterImg from "../../assets/images/27326-removebg-preview.png";
+import Truested from "../../components/Trusted/Truested";
+import Banner from "../../components/Banner/Banner";
+import logo1 from "../../assets/images/circuit-circuit-board-resistor-computer-163100.jpeg";
+import logo2 from "../../assets/images/pexels-photo-1191531.webp";
+import logo3 from "../../assets/images/360_F_304356571_5UobO3PIn4opYP1hzPQM4czElzFjO2xK.jpg";
+import logo4 from "../../assets/images/pexels-photo-7679863.jpeg";
 
 const category = [
   {

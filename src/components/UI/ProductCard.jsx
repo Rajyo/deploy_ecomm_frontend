@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { cartActions } from "../../redux/slices/cartSlice";
-import "../../styles/product-card.css";
+import "./product-card.css";
 
 const ProductCard = ({ item }) => {
   const dispatch = useDispatch();

@@ -1,10 +1,10 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import CommonSection from "../components/UI/CommonSection";
-import Helmet from "../components/Helmet/Helmet";
-import "../styles/shop.css";
-import ProductsList from "../components/UI/ProductsList";
+import CommonSection from "../../components/UI/CommonSection";
+import Helmet from "../../components/Helmet/Helmet";
+import "./shop.css";
+import ProductsList from "../../components/UI/ProductsList";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);

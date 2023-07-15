@@ -41,7 +41,7 @@ export const Logout = () => {
   // window.location.href = '/'
 
   return (
-    <div>
+    <div style={{display:"flex", justifyContent:"center"}}>
       <h2>Logout</h2>
     </div>
   );
