@@ -1,20 +1,20 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import Shop from "../pages/Shop";
-import Cart from "../pages/Cart";
-import ProductDetails from "../pages/ProductDetails";
-import Checkout from "../pages/Checkout";
-import Login from "../pages/Login";
+import Home from "../pages/home/Home";
+import Shop from "../pages/shop/Shop";
+import Cart from "../pages/cart/Cart";
+import ProductDetails from "../pages/productDetails/ProductDetails";
+import Checkout from "../pages/checkout/Checkout";
+import Login from "../pages/login/Login";
 import About from "../pages/About";
-import Success from "../pages/Success";
+import Success from "../pages/success/Success";
 import CategoryDetails from "../pages/CategoryDetails";
 import ProtectedRoute from "./ProtectedRoute";
-import Register from "../pages/Regsiter";
+import Register from "../pages/register/Regsiter";
 import Logout from "../pages/Logout";
 import Account from "../pages/account/Account";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js/pure";
-import CheckoutForm from "../pages/CheckoutForm.jsx";
+import CheckoutForm from "../pages/checkout/CheckoutForm.jsx";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PROMISE);
 

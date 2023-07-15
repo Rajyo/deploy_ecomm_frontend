@@ -1,11 +1,11 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import React, { useEffect, useState } from "react";
-import ApiService from "../api";
-import "../styles/checkout.css";
+import ApiService from "../../api";
+import "./checkout.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { revertAll } from "../redux/slices/cartSlice";
-import logo from "../assets/images/loading-58.gif";
+import { revertAll } from "../../redux/slices/cartSlice";
+import logo from "../../assets/images/loading-58.gif";
 
 const CheckoutForm = ({
   total,

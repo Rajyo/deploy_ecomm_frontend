@@ -1,6 +1,6 @@
 import { useState } from "react";
-import axiosInstance from "../axios";
-import CommonSection from "../components/UI/CommonSection";
+import axiosInstance from "../../axios";
+import CommonSection from "../../components/UI/CommonSection";
 
 const Login = () => {
   const [email, setEmail] = useState("");

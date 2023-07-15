@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Container, Row, Col, Form, FormGroup } from "reactstrap";
-import Helmet from "../components/Helmet/Helmet";
-import CommonSection from "../components/UI/CommonSection";
-import "../styles/checkout.css";
+import Helmet from "../../components/Helmet/Helmet";
+import CommonSection from "../../components/UI/CommonSection";
+import "./checkout.css";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js/pure";
-import CheckoutForm from "../pages/CheckoutForm.jsx";
+import CheckoutForm from "./CheckoutForm.jsx";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PROMISE);
 

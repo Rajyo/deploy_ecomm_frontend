@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "../styles/success.css";
-import CommonSection from "../components/UI/CommonSection";
+import "./success.css";
+import CommonSection from "../../components/UI/CommonSection";
 
 const Success = () => {
   const location = useLocation();

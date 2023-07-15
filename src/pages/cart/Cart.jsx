@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { motion } from "framer-motion";
-import { cartActions } from "../redux/slices/cartSlice";
+import { cartActions } from "../../redux/slices/cartSlice";
 import { useSelector, useDispatch } from "react-redux";
-import Helmet from "../components/Helmet/Helmet";
-import CommonSection from "../components/UI/CommonSection";
-import "../styles/cart.css";
+import Helmet from "../../components/Helmet/Helmet";
+import CommonSection from "../../components/UI/CommonSection";
+import "./cart.css";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
