@@ -1,0 +1,89 @@
+.success{
+    justify-content: center;
+    background-color: rgb(245, 241, 246);
+    padding: 20px 0px;
+}
+
+.success p,h2{
+    margin-top: 2rem;
+    margin-left: 35rem;
+}
+
+.suc_btn{
+    width: 88%;
+    margin: 6rem;
+    padding: 0.5rem 0px;
+    background-color:rgb(0, 25, 139) ;
+    font-size: large;
+    color: white;
+}
+
+.suc_btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.details_section{
+    /* background-color: grey; */
+    display: flex;
+    margin: 0rem 4rem;
+    justify-content: space-around;
+}
+
+
+.details_section .div_sec{
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.billing_sec h6{
+    margin: 0.75rem 0rem;
+}
+
+
+.div_sec h5{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.div_sec h6{
+    color: gray;
+    margin: 1rem 0rem;
+}
+
+.div_sec td h6{
+    text-align: start;
+    margin-right: 3rem;
+}
+
+.div_sec td{
+    text-align: end;
+    border-bottom: 2px solid rgb(240, 240, 240);
+    color: gray;
+    font-weight: 700;
+}
+
+.items_section{
+    background-color:white;
+    margin: 3rem 6rem 0rem 6rem;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.misc_section{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 6rem;
+    padding: 0rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.amount_table td{
+   padding-bottom : 0.25rem;
+   margin-left: 0.25rem;
+}

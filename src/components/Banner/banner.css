@@ -1,0 +1,84 @@
+.cursor-pointer{
+  width: 100% !important;
+  height: 60% !important;
+}
+
+/* .category {
+  position: relative !important;
+}
+.category .box {
+  border-radius: 0 !important;
+  text-align: center !important;
+}
+.category p {
+  text-transform: capitalize !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.category img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+}
+.category .box::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 250px !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.category .box {
+  cursor: pointer !important;
+  position: relative !important;
+}
+.category .overlay {
+  position: absolute !important;
+  top: 80px !important;
+  padding: 20px !important;
+  text-align: center !important;
+  width: 100% !important;
+  z-index: 2 !important;
+  color: #fff !important;
+}
+.category .overlay h4 {
+  font-weight: 500 !important;
+  color: rgb(253, 246, 126) !important;
+}
+.category .overlay p {
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 15px !important;
+}
+/*---------------control-btn-------------*/
+/* .control-btn button {
+  background: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  padding: 2px;
+}
+
+.control-btn .next {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+}
+
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  z-index: 99;
+}
+.control-btn .icon {
+  font-size: 25px;
+} */ 
+/*---------------control-btn-------------*/

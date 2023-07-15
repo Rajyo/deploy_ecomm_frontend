@@ -1,0 +1,162 @@
+.bg_c{
+  background-color:#ca9652;
+}
+
+.button{
+  margin-top: 40px;
+  padding: 3px 8.5rem;
+  background-color: white;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+.billing__form .form__group input {
+  border: 1px solid var(--card--bg-02);
+}
+
+.checkout__cart {
+  background-color:rgb(183, 140, 112);
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.checkout__cart h7,
+h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout__cart h7 {
+  margin-bottom: 15px;
+}
+
+.checkout__cart button {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background-color:sandybrown;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+/* .close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+} */
+
+.chk_btn{
+  margin: 30px 0px 0px 335px;
+  padding: 2px 30px;
+}
+
+.chk_btn:hover{
+  color: white !important;
+  background-color: black !important;
+}
+
+.payment{
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form-row{
+  margin-bottom: 1rem;
+}
+
+.form-row label{
+  margin-bottom: 0.2rem;
+}
+
+.form-row input::placeholder{
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+
+/* .button {
+  position: relative;
+  padding: 8px 1rem;
+  background: #009579;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #007a63;
+}
+
+.button__text {
+  font: bold 20px "Quicksand", san-serif;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.button--loading .button__text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.button--loading::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+} */
