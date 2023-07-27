@@ -36,7 +36,8 @@ const category = [
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+    alert('Web App is yet to be made responsive')
+  },[]);
 
   return (
     <Helmet title={"Home"}>
