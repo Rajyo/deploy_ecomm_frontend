@@ -179,6 +179,14 @@ const CheckoutForm = ({
           <div className="card-errors" role="alert">
             {error}
           </div>
+
+          <div style={{ marginTop: "1.5rem", color: "red", display: "flex", flexDirection: "column" }}>
+            <h7 style={{ fontSize: "0.8rem" }}>Card number - <b> 4242 4242 4242 4242</b></h7>
+            <h7 style={{ fontSize: "0.8rem" }}>Month and Year - <b>any future date</b></h7>
+            <h7 style={{ fontSize: "0.8rem" }}>CVC - <b>random number</b></h7>
+            <h7 style={{ fontSize: "0.8rem" }}>ZIP - <b>random number</b></h7>
+          </div>
+          
         </div>
 
         <button
