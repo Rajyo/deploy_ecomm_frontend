@@ -1,6 +1,6 @@
 import axios from "axios";
 // const baseURL = "http://127.0.0.1:8000/";
-const baseURL = "https://deployecommbackend-production.up.railway.app/";
+const baseURL = process.env.REACT_APP_BACKEND_URL;
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
