@@ -12,6 +12,6 @@ export const api = axios.create({
 
 export default class ApiService {
   static saveStripeInfo(data = {}) {
-    return api.post(`/payments/save-stripe-info/`, data);
+    return axios.post(`${process.env.REACT_APP_BACKEND_URL}/payments/save-stripe-info/`, data);
   }
 }
